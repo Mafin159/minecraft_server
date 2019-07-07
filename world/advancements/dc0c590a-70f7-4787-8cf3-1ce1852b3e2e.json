@@ -342,6 +342,12 @@
     },
     "done": true
   },
+  "enderioconduits:item/3_big_filter": {
+    "criteria": {
+      "inv_changed-enderio:item_big_item_filter": "2019-07-07 13:38:46 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2019-06-28 18:02:50 +0200"
@@ -524,6 +530,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_brick_block": "2019-07-07 16:40:26 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2019-06-28 18:02:50 +0200"
@@ -560,9 +572,21 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2019-07-07 17:55:01 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2019-06-29 10:57:24 +0200"
+    },
+    "done": true
+  },
+  "enderioconduits:item/2_basic_filter": {
+    "criteria": {
+      "inv_changed-enderio:item_basic_item_filter": "2019-07-07 13:22:26 +0200"
     },
     "done": true
   },
@@ -738,12 +762,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "zombie_pigman": "2019-06-29 18:53:24 +0200",
+      "stray": "2019-07-07 16:40:17 +0200",
       "shulker": "2019-07-05 17:43:01 +0200",
       "wither_skeleton": "2019-07-04 18:21:12 +0200",
       "zombie_villager": "2019-06-28 18:06:41 +0200",
       "magma_cube": "2019-07-04 11:45:39 +0200",
       "slime": "2019-06-28 18:52:40 +0200",
       "skeleton": "2019-06-28 18:10:59 +0200",
+      "husk": "2019-07-07 16:40:20 +0200",
       "blaze": "2019-07-04 18:18:56 +0200",
       "cave_spider": "2019-06-28 18:07:30 +0200",
       "zombie": "2019-06-28 18:08:34 +0200",
@@ -1403,6 +1429,7 @@
       "taiga_hills": "2019-07-05 16:56:21 +0200",
       "ocean": "2019-06-28 18:06:21 +0200",
       "extreme_hills": "2019-07-06 15:34:17 +0200",
+      "roofed_forest": "2019-07-07 16:38:00 +0200",
       "river": "2019-06-28 18:14:25 +0200",
       "desert": "2019-06-28 20:52:33 +0200",
       "stone_beach": "2019-06-29 21:24:11 +0200"
@@ -1568,6 +1595,12 @@
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_at_least_9_lapis": "2019-06-29 11:43:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_brick_block": "2019-07-07 16:40:26 +0200"
     },
     "done": true
   },
@@ -2280,6 +2313,12 @@
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2019-06-28 21:36:55 +0200"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/misc/spidereye_soup": {
+    "criteria": {
+      "has_item": "2019-07-07 16:39:48 +0200"
     },
     "done": true
   },
@@ -3044,6 +3083,13 @@
       "has_stone": "2019-06-29 11:48:38 +0200"
     },
     "done": true
+  },
+  "enderioconduits:goals/all_filters": {
+    "criteria": {
+      "inv_changed-enderio:item_big_item_filter2": "2019-07-07 13:38:46 +0200",
+      "inv_changed-enderio:item_basic_item_filter2": "2019-07-07 13:22:26 +0200"
+    },
+    "done": false
   },
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {

@@ -675,6 +675,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2019-07-07 13:04:41 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_carpet": {
     "criteria": {
       "has_red_wool": "2019-06-30 00:12:08 +0200"
@@ -961,6 +967,12 @@
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2019-07-07 11:45:44 +0200"
+    },
+    "done": true
+  },
   "enderiomachines:basics/goal/1_all_simple_get": {
     "criteria": {
       "inv_changed-enderio:block_simple_sag_mill": "2019-07-02 20:14:02 +0200",
@@ -1044,6 +1056,12 @@
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_at_least_9_iron_ingot": "2019-06-28 16:37:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2019-07-07 13:04:41 +0200"
     },
     "done": true
   },
@@ -1269,6 +1287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2019-07-07 13:04:41 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
       "has_log": "2019-06-28 16:18:43 +0200"
@@ -1362,6 +1386,12 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-06-28 16:46:27 +0200"
+    },
+    "done": true
+  },
+  "enderioconduits:fluid/2_fluid_conduit_pressurized": {
+    "criteria": {
+      "inv_changed-enderio:liquid_conduit_pressurized": "2019-07-07 15:39:37 +0200"
     },
     "done": true
   },
@@ -1480,6 +1510,12 @@
   "minecraft:nether/brew_potion": {
     "criteria": {
       "potion": "2019-07-03 21:48:12 +0200"
+    },
+    "done": true
+  },
+  "enderioconduits:fluid/1_fluid_conduit": {
+    "criteria": {
+      "inv_changed-enderio:liquid_conduit": "2019-07-07 15:39:37 +0200"
     },
     "done": true
   },
@@ -1786,6 +1822,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-06-28 16:46:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pillar_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2019-07-07 13:04:41 +0200"
     },
     "done": true
   },
@@ -2259,9 +2301,11 @@
     "criteria": {
       "inv_changed-enderio:power_conduit_enhanced2": "2019-07-02 20:07:36 +0200",
       "inv_changed-enderio:power_conduit_ender2": "2019-07-06 23:17:39 +0200",
+      "inv_changed-enderio:liquid_conduit_pressurized2": "2019-07-07 15:39:37 +0200",
       "inv_changed-enderio:redstone_conduit2": "2019-07-02 20:00:46 +0200",
       "inv_changed-enderio:power_conduit2": "2019-07-02 20:03:54 +0200",
-      "inv_changed-enderio:item_conduit2": "2019-07-04 00:31:39 +0200"
+      "inv_changed-enderio:item_conduit2": "2019-07-04 00:31:39 +0200",
+      "inv_changed-enderio:liquid_conduit_ender2": "2019-07-07 17:39:43 +0200"
     },
     "done": false
   },
@@ -3131,6 +3175,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2019-07-07 11:45:44 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_stone": "2019-06-28 16:28:57 +0200"
@@ -3307,6 +3357,12 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_at_least_9_bonemeal": "2019-06-28 18:37:11 +0200"
+    },
+    "done": true
+  },
+  "enderioconduits:fluid/3_fluid_conduit_ender": {
+    "criteria": {
+      "inv_changed-enderio:liquid_conduit_ender": "2019-07-07 17:39:43 +0200"
     },
     "done": true
   }

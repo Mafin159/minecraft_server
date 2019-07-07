@@ -1,5 +1,17 @@
 [
   {
+    "uuid": "dc0c590a-70f7-4787-8cf3-1ce1852b3e2e",
+    "name": "_Mafin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "35c80813-d287-429b-9d12-926ab5ec20b5",
+    "name": "FreeAss",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "f512b9ad-95dc-4fae-abf1-9b6f2f36a78c",
     "name": "WTroll",
     "level": 4,
