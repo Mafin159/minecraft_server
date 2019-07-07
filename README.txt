@@ -1,16 +1,31 @@
-Spongeforge users beware:
-You must remove foamfix from the mods folder otherwise the server will NOT start, please be aware of that. Non-Sponge users can ignore this.
+Andrej skipni prvý bod (aj 3 v alternatíve)
 
-Setting up your server:
-What's the difference between the 2 server .bat? Performance uses special java arguments recommended by many mod devs,
-unfortunately this consumes more memory so if you dont have atleast 12GB I would not recommend using this.
+1. vytvor si účet na github.com
+2. stiahni a nainštaluj https://desktop.github.com/
+3. otvor github desktop a logni sa
+4. choď file -> Clone repository -> URL (hore), do url daj "https://github.com/WTroll/minecraft_server.git" bez úvodzoviek a vyber kam sa to má uložiť
+5. keď sa to dorobí, choď kam sa to stiahlo a otvor  Start Server-Performance.bat
+6. v MC sa connectni na adresu 127.0.0.1 bez portu
 
-You MUST port forward CORRECTLY otherwise other users wont be able to connect to your server!
+*** UKLADANIE ***
+1. otvor github desktop
+vľavo by mali byť zmenené súbory a pod tým Summary, Description a Commit to master
+2. do Summary napíš dátum a čas v tvare DEŇMESIACROK_HODINAMINÚTA a daj Commit to master
+3. POTOM DAJ HORE repository A DAJ PUSH (alebo stlač Ctrl + P)
 
-To modify the amount of memory your server uses you must edit the StartTekxitServer.bat and change -Xmx4G -Xms4G to whatever amount of memory you want to use. 6GB example; -Xmx6G -Xms6G
 
-You can modify the server.properties to change many things such as the allowed max view distance, port number, max world size, pvp mode, motd, ect...
 
-Updating your server:
-To update your server (my way atleast) delete the config, libraries, mods, scripts folders along with the forge and minecraft_server.1.12.2 jars from your servers folder, 
-then copy everything into the updated server folder OR if you know what your doing, you can make individual edits and mod updates using the changelogs.
+*** ALTERNATÍVA ***
+3. stiahni a nainštaluj https://git-scm.com/downloads (tu bude plno sračiek sa pýtať, dávaj proste dalej :D)
+4. otvor git bash (napr. zo štartu)
+5. v bashi pomocou "cd cesta/kam/sa/uloží/server" choď kam chceš uložiť server
+6. do bashu skopíruj "git clone https://github.com/WTroll/minecraft_server.git" bez úvodzoviek (vložiť je shift + insert / RMB -> paste)
+7. keď sa 6. dokončí, otvor github desktop, logni sa, choď file -> Add local repository, tam daj kde si uložil server
+8. otvor  Start Server-Performance.bat
+
+*** ALTERNATÍVA UKLADANIE ***
+1. otvor git bash
+2. choď kde je server uložený pomocou "cd" (keď chceš ísť o súbor vyšie, daj "cd ..")
+3. napíš "git add *" bez úvodzoviek
+4. potom "git commit -m 'DEŇMESIACROK_HODINAMINÚTA'" s apostrofmy  bez úvodzovkami
+5. potom "git push" bez úvodzoviek
