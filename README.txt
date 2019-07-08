@@ -1,5 +1,6 @@
 Andrej skipni prvý bod (aj 3 v alternatíve)
 
+*** STIAHNUTIE ***
 1. vytvor si účet na github.com
 2. stiahni a nainštaluj https://desktop.github.com/
 3. otvor github desktop a logni sa
@@ -13,6 +14,9 @@ vľavo by mali byť zmenené súbory a pod tým Summary, Description a Commit to
 2. do Summary napíš dátum a čas v tvare DEŇ.MESIAC.ROK_HODINA:MINÚTA a daj Commit to master
 3. POTOM DAJ PUSH ORIGIN / HORE repository A DAJ PUSH (alebo stlač Ctrl + P)
 
+*** AKTUALIZOVANIE VŽDY PRED SPUSTENÍM SERVERU ***
+1. otvor github desktop
+2. choď hore repository -> pull
 
 
 *** ALTERNATÍVA ***
@@ -29,3 +33,8 @@ vľavo by mali byť zmenené súbory a pod tým Summary, Description a Commit to
 3. napíš "git add *" bez úvodzoviek
 4. potom "git commit -m 'DEŇMESIACROK_HODINAMINÚTA'" s apostrofmi  bez úvodzovkami
 5. potom "git push" bez úvodzoviek
+
+*** AKTUALIZOVANIE VŽDY PRED SPUSTENÍM SERVERU ***
+1. otvor git bash
+2. choď kde je server uložený pomocou "cd" (keď chceš ísť o súbor vyšie, daj "cd ..")
+3. napíš "git pull" bez úvodzoviek
