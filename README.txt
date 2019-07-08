@@ -10,8 +10,8 @@ Andrej skipni prvý bod (aj 3 v alternatíve)
 *** UKLADANIE ***
 1. otvor github desktop
 vľavo by mali byť zmenené súbory a pod tým Summary, Description a Commit to master
-2. do Summary napíš dátum a čas v tvare DEŇMESIACROK_HODINAMINÚTA a daj Commit to master
-3. POTOM DAJ HORE repository A DAJ PUSH (alebo stlač Ctrl + P)
+2. do Summary napíš dátum a čas v tvare DEŇ.MESIAC.ROK_HODINA:MINÚTA a daj Commit to master
+3. POTOM DAJ PUSH ORIGIN / HORE repository A DAJ PUSH (alebo stlač Ctrl + P)
 
 
 
@@ -27,5 +27,5 @@ vľavo by mali byť zmenené súbory a pod tým Summary, Description a Commit to
 1. otvor git bash
 2. choď kde je server uložený pomocou "cd" (keď chceš ísť o súbor vyšie, daj "cd ..")
 3. napíš "git add *" bez úvodzoviek
-4. potom "git commit -m 'DEŇMESIACROK_HODINAMINÚTA'" s apostrofmy  bez úvodzovkami
+4. potom "git commit -m 'DEŇMESIACROK_HODINAMINÚTA'" s apostrofmi  bez úvodzovkami
 5. potom "git push" bez úvodzoviek
