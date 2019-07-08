@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_red_flower": "2019-07-08 16:30:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/observer": {
     "criteria": {
       "has_quartz": "2019-06-28 20:23:40 +0200"
@@ -518,6 +524,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_double_plant": "2019-07-08 16:30:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brick_stairs": {
     "criteria": {
       "has_brick_block": "2019-07-06 14:50:42 +0200"
@@ -746,6 +758,7 @@
       "zombie_pigman": "2019-07-01 23:49:11 +0200",
       "stray": "2019-07-06 14:49:38 +0200",
       "zombie_villager": "2019-06-28 16:40:22 +0200",
+      "slime": "2019-07-08 16:47:16 +0200",
       "skeleton": "2019-06-28 16:02:34 +0200",
       "zombie": "2019-06-28 15:59:35 +0200",
       "cave_spider": "2019-06-28 22:03:27 +0200",
@@ -2455,6 +2468,12 @@
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2019-06-28 17:18:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_red_flower": "2019-07-08 16:30:06 +0200"
     },
     "done": true
   },
